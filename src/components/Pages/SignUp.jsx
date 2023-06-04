@@ -37,7 +37,7 @@ function SignUp() {
   return (
     <form onSubmit={handleSubmit} className="contact-form">
       <div className="form-group">
-        <h2 className="form-title">Sign-Up</h2>
+        <h2 className="form-title">Contact Us</h2>
         <label htmlFor="name">Name:</label>
         <input
           type="text"
