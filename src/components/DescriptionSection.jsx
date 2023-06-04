@@ -3,9 +3,9 @@ import './DescriptionSection.css';
 
 function DescriptionSection() {
     return (
-        <div className="description">
+        <div className='container'>
 
-            <div className='container'>
+            <div className='description'>
                 {/* <div className="section">
                     <img className='description-section-img' src="images/img-home.jpg" alt="nursing-imge" />
                 </div> */}
@@ -57,20 +57,25 @@ function DescriptionSection() {
                         By choosing Ajani Healthcare, you are not only opting for high-quality healthcare services but also actively contributing to the protection and preservation of the NHS. We believe in working collaboratively with the NHS, supporting its mission and alleviating the strain on its resources.
                     </p>
 
-                    <br />
 
-                    <h1 className='description-title'>Our Services</h1>
-                    <p className='description-section'>Our services are available but not limited to:
 
-                        HOSPITALS, COMMUNITY NURSING, RESIDENTIAL, PRIVATE, AND CAREHOMES.
-                    </p>
-                    <br />
-                    <p className='description-section'>
-                        Our nurses are experienced and go through rigorous training to make sure they are well equipped to help your loved one or represent your organisation with top notch nursing practice, no matter your needs.
-                    </p>
+
 
 
                 </div>
+            </div>
+
+            <div className='our-services'>
+                <h1 className='description-title'>Our Services</h1>
+                <p className='our-services-section'>Our services are available but not limited to:
+
+                    HOSPITALS, COMMUNITY NURSING, RESIDENTIAL, PRIVATE, AND CAREHOMES.
+                </p>
+                <br />
+                <p className='our-services-section'>
+                    Our nurses are experienced and go through rigorous training to make sure they are well equipped to help your loved one or represent your organisation with top notch nursing practice, no matter your needs.
+                </p>
+
             </div>
         </div >
     )

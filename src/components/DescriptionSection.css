@@ -1,6 +1,6 @@
 .description {
     padding: 4rem;
-    background-color: #242424;
+    background-color: #272e6e;
     color: white;
 
 }
@@ -10,30 +10,43 @@
     color: white;
     display: flex;
     opacity: 0.75;
-    font-size: 0.98rem;
+    font-size: 1.1rem;
     /* padding-left: 200px;
     padding-right: 200px; */
 
 
 }
 
-.container {
+/* .container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-}
+} */
 
 .section {
     flex: 1;
     min-width: 0;
     padding: 20px;
-
-    /* padding-left: 200px;
-    padding-right: 200px; */
 }
 
 
 
 .description-title{
     padding-bottom: 50px;
+    
+}
+
+.our-services{
+    background-color: #b64926;
+    padding: 4rem;
+    color: white;
+    text-align: center;
+}
+
+.our-services-section{
+    color: white;
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    text-align: center;
 }

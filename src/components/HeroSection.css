@@ -40,6 +40,9 @@
   .hero-btns .btn{
     margin: 5px;
   }
+  .heading-span{
+    font-size: 2rem;
+  }
 
   .fa-play-circle{
     padding-left: 5px;
