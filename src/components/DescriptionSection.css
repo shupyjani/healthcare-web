@@ -1,0 +1,39 @@
+.description {
+    padding: 4rem;
+    background-color: #242424;
+    color: white;
+
+}
+
+.description-section {
+
+    color: white;
+    display: flex;
+    opacity: 0.75;
+    font-size: 0.98rem;
+    /* padding-left: 200px;
+    padding-right: 200px; */
+
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.section {
+    flex: 1;
+    min-width: 0;
+    padding: 20px;
+
+    /* padding-left: 200px;
+    padding-right: 200px; */
+}
+
+
+
+.description-title{
+    padding-bottom: 50px;
+}
