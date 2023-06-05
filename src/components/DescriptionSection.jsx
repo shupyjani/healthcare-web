@@ -5,11 +5,8 @@ function DescriptionSection() {
     return (
         <div className='container'>
 
-            <div className='description'>
-                {/* <div className="section">
-                    <img className='description-section-img' src="images/img-home.jpg" alt="nursing-imge" />
-                </div> */}
-                <div className="section">
+            <div className='description' id='section1'>
+                <div className="section" >
                     <h1 className='description-title'>Who We Are</h1>
 
 
@@ -65,7 +62,7 @@ function DescriptionSection() {
                 </div>
             </div>
 
-            <div className='our-services'>
+            {/* <div className='our-services'>
                 <h1 className='description-title'>Our Services</h1>
                 <p className='our-services-section'>Our services are available but not limited to:
 
@@ -76,7 +73,39 @@ function DescriptionSection() {
                     Our nurses are experienced and go through rigorous training to make sure they are well equipped to help your loved one or represent your organisation with top notch nursing practice, no matter your needs.
                 </p>
 
-            </div>
+            </div> */}
+
+
+
+
+            {/* <div class="image-gallery">
+                <div class="image-container">
+                    <img src="images/hc-img-8.jpg" alt="" />
+                    <div class="image-text">
+                        <h3>Image 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="images/hc-img-9.jpg" alt="" />
+                    <div class="image-text">
+                        <h3>Image 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="images/hc-img-10.jpg" alt="" />
+                    <div class="image-text">
+                        <h3>Image 3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div> */}
+
+
+
+
+
         </div >
     )
 }

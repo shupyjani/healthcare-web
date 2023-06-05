@@ -31,22 +31,56 @@
 
 
 
-.description-title{
+.description-title {
     padding-bottom: 50px;
-    
+
 }
 
-.our-services{
+.our-services {
     background-color: #b64926;
     padding: 4rem;
     color: white;
     text-align: center;
 }
 
-.our-services-section{
+.our-services-section {
     color: white;
     display: flex;
     font-size: 1.3rem;
     font-weight: bolder;
     text-align: center;
+}
+
+
+
+
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.image-text {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.image-text h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.image-text p {
+    font-size: 14px;
 }

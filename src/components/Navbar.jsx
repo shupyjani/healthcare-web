@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import Button from './Button';
 import './Navbar.css';
 
@@ -35,6 +36,7 @@ function Navbar() {
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} ></i>
 
+
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
@@ -43,6 +45,44 @@ function Navbar() {
                             </Link>
 
                         </li>
+                        <li className='nav-item'>
+                            <HashLink
+                                smooth
+                                to='/#section1'
+                                className='nav-links'
+                                onClick={closeMobileMenu}
+                            >
+                                About
+                            </HashLink>
+
+
+                        </li>
+
+                        <li className='nav-item'>
+                            <HashLink
+                                smooth
+                                to='/#section2'
+                                className='nav-links'
+                                onClick={closeMobileMenu}
+                            >
+                                Services
+                            </HashLink>
+                        </li>
+
+                        <li className='nav-item'>
+                            <HashLink
+                                smooth
+                                to='/#section3'
+                                className='nav-links'
+                                onClick={closeMobileMenu}
+                            >
+                                Our Goals
+                            </HashLink>
+                        </li>
+
+
+
+
 
                         <li className='nav-item'>
                             <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
