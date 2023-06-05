@@ -16,7 +16,7 @@ function Cards() {
 
     return (
         <div className='cards'>
-            <h1 className='services-title' id='section2'>Our Services</h1>
+            {/* <h1 className='services-title' id='section2'>Our Services</h1>
             <div class="image-gallery">
                 <div class="image-container">
                     <img src="images/hc-img-8.jpg" alt="" />
@@ -39,7 +39,7 @@ function Cards() {
                         <p> Exceptional and specialized medical attention, offering comprehensive treatment and monitoring for critical patients, ensuring optimal care and recovery.</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
             
 
 

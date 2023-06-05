@@ -126,11 +126,9 @@ h1 {
 .goals-title {
   margin-top: 20px;
   padding-top: 50px;
-  /* padding-bottom: 50px; */
 }
 
-.services-title {
-  /* padding-top: 20px; */
+/* .services-title {
   padding-bottom: 50px;
 }
 
@@ -163,7 +161,6 @@ h1 {
   font-size: 18px;
   margin-bottom: 5px;
   padding-top: 40px;
-  /* font-size: 1.3rem !important; */
 
 }
 
@@ -189,7 +186,7 @@ h1 {
   .image-text p {
     font-size: 12px;
   }
-}
+} */
 
 
 

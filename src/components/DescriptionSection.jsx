@@ -54,55 +54,35 @@ function DescriptionSection() {
                         By choosing Ajani Healthcare, you are not only opting for high-quality healthcare services but also actively contributing to the protection and preservation of the NHS. We believe in working collaboratively with the NHS, supporting its mission and alleviating the strain on its resources.
                     </p>
 
-
-
-
-
-
                 </div>
             </div>
 
-            {/* <div className='our-services'>
-                <h1 className='description-title'>Our Services</h1>
-                <p className='our-services-section'>Our services are available but not limited to:
-
-                    HOSPITALS, COMMUNITY NURSING, RESIDENTIAL, PRIVATE, AND CAREHOMES.
-                </p>
-                <br />
-                <p className='our-services-section'>
-                    Our nurses are experienced and go through rigorous training to make sure they are well equipped to help your loved one or represent your organisation with top notch nursing practice, no matter your needs.
-                </p>
-
-            </div> */}
-
-
-
-
-            {/* <div class="image-gallery">
-                <div class="image-container">
-                    <img src="images/hc-img-8.jpg" alt="" />
-                    <div class="image-text">
-                        <h3>Image 1</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div className='img-container'>
+                <h1 className='services-title' id='section2'>Our Services</h1>
+                <div class="image-gallery">
+                    <div class="image-container">
+                        <img src="images/hc-img-8.jpg" alt="" />
+                        <div class="image-text">
+                            <h3>Home Care Service</h3>
+                            <p>Providing compassionate and professional care in the comfort of your own home, ensuring your well-being and peace of mind.</p>
+                        </div>
+                    </div>
+                    <div class="image-container">
+                        <img src="images/hc-img-9.jpg" alt="" />
+                        <div class="image-text">
+                            <h3>Senior Care Service</h3>
+                            <p>Dedicated support for elderly individuals, promoting independence, dignity, and a safe environment to enhance their quality of life.</p>
+                        </div>
+                    </div>
+                    <div class="image-container">
+                        <img src="images/hc-img-10.jpg" alt="" />
+                        <div class="image-text">
+                            <h3>Intensive Care Service</h3>
+                            <p> Exceptional and specialized medical attention, offering comprehensive treatment and monitoring for critical patients, ensuring optimal care and recovery.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="image-container">
-                    <img src="images/hc-img-9.jpg" alt="" />
-                    <div class="image-text">
-                        <h3>Image 2</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-                <div class="image-container">
-                    <img src="images/hc-img-10.jpg" alt="" />
-                    <div class="image-text">
-                        <h3>Image 3</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-            </div> */}
-
-
+            </div>
 
 
 
