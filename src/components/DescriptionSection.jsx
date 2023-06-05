@@ -61,24 +61,24 @@ function DescriptionSection() {
                 <h1 className='services-title' id='section2'>Our Services</h1>
                 <div class="image-gallery">
                     <div class="image-container">
-                        <img src="images/hc-img-8.jpg" alt="" />
+                        <img src="images/hc-img-18.jpg" alt="" />
                         <div class="image-text">
-                            <h3>Home Care Service</h3>
-                            <p>Providing compassionate and professional care in the comfort of your own home, ensuring your well-being and peace of mind.</p>
+                            <h3>Hospital</h3>
+                            <p>Provide high-quality care to patients, managing physical needs, preventing illness, and treating health conditions.</p>
                         </div>
                     </div>
                     <div class="image-container">
-                        <img src="images/hc-img-9.jpg" alt="" />
+                        <img src="images/hc-img-16.jpg" alt="" />
                         <div class="image-text">
-                            <h3>Senior Care Service</h3>
-                            <p>Dedicated support for elderly individuals, promoting independence, dignity, and a safe environment to enhance their quality of life.</p>
+                            <h3>Community Nursing</h3>
+                            <p>Visiting patient's in their own homes or in residential care homes and to provide a range of medical care to support periods of illness and incapacity.</p>
                         </div>
                     </div>
                     <div class="image-container">
-                        <img src="images/hc-img-10.jpg" alt="" />
+                        <img src="images/hc-img-19.jpg" alt="" />
                         <div class="image-text">
-                            <h3>Intensive Care Service</h3>
-                            <p> Exceptional and specialized medical attention, offering comprehensive treatment and monitoring for critical patients, ensuring optimal care and recovery.</p>
+                            <h3>Care homes</h3>
+                            <p> Mainataining a person and relationship-centred approach to care, and fulfilling leadership/management responsibilities to staff at all levels within the organisation.</p>
                         </div>
                     </div>
                 </div>

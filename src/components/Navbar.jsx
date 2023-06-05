@@ -76,7 +76,7 @@ function Navbar() {
                                 className='nav-links'
                                 onClick={closeMobileMenu}
                             >
-                                Our Goals
+                                Goals
                             </HashLink>
                         </li>
 

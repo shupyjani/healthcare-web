@@ -54,11 +54,10 @@
 
 
 
-.goals-title {
+/* .goals-title {
     margin-top: 20px;
     padding-top: 50px;
-    /* padding-bottom: 50px; */
-}
+} */
 
 .services-title {
     padding-top: 50px;
@@ -66,8 +65,9 @@
 }
 
 .img-container {
-    /* background-color: aliceblue; */
-    background: #fff;
+    background-color: rgb(246, 250, 253);
+    /* background: #fff; */
+    /* height: 650px; */
 
 }
 
@@ -89,6 +89,7 @@
 .image-container img {
     width: 100%;
     height: auto;
+    
     transition: transform 0.3s ease;
 }
 
@@ -108,6 +109,7 @@
 
 .image-text p {
     font-size: 17px;
+    padding-bottom: 50px;
 }
 
 @media (max-width: 767px) {
@@ -122,10 +124,10 @@
     }
 
     .image-text h3 {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .image-text p {
-        font-size: 12px;
+        font-size: 14px;
     }
 }

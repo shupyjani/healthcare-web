@@ -1,7 +1,6 @@
 .cards {
   padding: 4rem;
   background: #fff;
-  /* background-color: #fcfeff; */
 }
 
 h1 {
@@ -102,30 +101,10 @@ h1 {
 
 
 
-/* .service__container {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  max-width: 1120px;
-  width: 90%;
-  margin: 0 auto;
-  
-}
-
-.service__wrapper {
-  position: relative;
-  margin: 50px 0 45px;
-  
-}
-
-.service__items {
-  margin-bottom: 24px;
-} */
-
 
 .goals-title {
-  margin-top: 20px;
-  padding-top: 50px;
+  padding-top: 20px;
+ 
 }
 
 /* .services-title {
