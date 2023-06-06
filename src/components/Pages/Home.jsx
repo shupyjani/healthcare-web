@@ -7,7 +7,6 @@ import Footer from '../Footer';
 
 
 function Home() {
-    console.log("Working fine from Home.js")
     return (
         <>
             <HeroSection />
