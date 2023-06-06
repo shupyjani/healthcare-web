@@ -63,7 +63,7 @@ function DescriptionSection() {
                     <div class="image-container">
                         <img src="images/hc-img-18.jpg" alt="" />
                         <div class="image-text">
-                            <h3>Hospital</h3>
+                            <h3>Hospitals</h3>
                             <p>Provide high-quality care to patients, managing physical needs, preventing illness, and treating health conditions.</p>
                         </div>
                     </div>
@@ -78,7 +78,7 @@ function DescriptionSection() {
                         <img src="images/hc-img-19.jpg" alt="" />
                         <div class="image-text">
                             <h3>Care homes</h3>
-                            <p> Mainataining a person and relationship-centred approach to care, and fulfilling leadership/management responsibilities to staff at all levels within the organisation.</p>
+                            <p> Mainataining a person and relationship-centred approach to care as well as fulfilling leadership/management responsibilities to staff at all levels within the organisation.</p>
                         </div>
                     </div>
                 </div>

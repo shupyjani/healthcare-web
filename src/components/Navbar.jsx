@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import Button from './Button';
+// import Button from './Button';
 import './Navbar.css';
 
 
@@ -81,18 +81,18 @@ function Navbar() {
                         </li>
 
 
-
-
-
                         <li className='nav-item'>
-                            <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
+                            <Link to='/sign-up' className='nav-links' onClick={closeMobileMenu}>
                                 Contact us
                             </Link>
 
                         </li>
 
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>Contact us</Button>}
+
+                    
+                    {button}
+
                 </div>
             </nav>
 

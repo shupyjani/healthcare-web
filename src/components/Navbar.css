@@ -16,12 +16,15 @@
   align-items: center;
   height: 80px;
   max-width: 1500px;
+  margin-left: 100px;
+  
 }
 
 .navbar-logo {
   color: #fff;
   justify-self: start;
-  margin-left: 20px;
+  /* margin-left: 20px; */
+  margin-right: 200px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
@@ -83,17 +86,19 @@
     position: relative;
   }
 
+
+
   .nav-menu {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     position: absolute;
     top: 80px;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
-    padding-bottom: 500px;
+    padding-bottom: 350px;
   }
 
   .nav-menu.active {
@@ -130,7 +135,7 @@
     display: block;
     position: absolute;
     top: 0;
-    right: -20px;
+    right: -15px;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
