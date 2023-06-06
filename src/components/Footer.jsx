@@ -33,7 +33,6 @@ function Footer() {
                     <small class='website-rights'>AHC <span>&copy;</span> 2023</small>
 
                     <div class='social-icons'>
-                        {/* <a class='social-icon-link facebook' target='_blank' href="https://www.facebook.com/ajanihealthcare/"><i class='fab fa-facebook-f' /></a> */}
                         <a
                             class='social-icon-link facebook'
                             href='https://www.facebook.com/ajanihealthcare/'
@@ -68,7 +67,7 @@ function Footer() {
                             <i class='fab fa-twitter' />
                         </a>
                         <a
-                            class='social-icon-link twitter'
+                            class='social-icon-link linkedin'
                             href='https://www.linkedin.com/in/ajani-healthcare-0838b8279'
                             target='_blank'
                             rel="noopener noreferrer"
