@@ -30,9 +30,9 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo">
+                    <HashLink to="/#home-section" smooth className="navbar-logo">
                         <img src='./images/ahc-logo.png' alt='my logo' width='160px' height='80px' />
-                    </Link>
+                    </HashLink>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} ></i>
 
@@ -40,9 +40,9 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to="/" className='nav-links' onClick={closeMobileMenu}>
+                            <HashLink to="/#home-section" smooth className='nav-links' onClick={closeMobileMenu}>
                                 Home
-                            </Link>
+                            </HashLink>
 
                         </li>
                         <li className='nav-item'>

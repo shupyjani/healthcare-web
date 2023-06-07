@@ -18,7 +18,7 @@ function HeroSection() {
     }, [])
 
     return (
-        <div className='hero-container'>
+        <div className='hero-container' id='home-section'>
             <img className='hero-container-image' src="/images/img-10.jpeg" alt="img-10" />
             <h1 data-aos="fade-right" data-aos-duration="2000">
                 <span className='heading-span1'>AJANI </span>
