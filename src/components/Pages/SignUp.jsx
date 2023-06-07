@@ -1,10 +1,34 @@
 import React, { useState } from 'react'
+import { useRef } from 'react';
 import '../../App.css';
-
+import emailjs from '@emailjs/browser';
 
 
 
 function SignUp() {
+
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_o99hzun', 'template_c32bqwm', form.current, 'csIr3QJ1ouLKn0w08')
+      .then((result) => {
+        alert("Your request has been sent")
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+    // e.target.reset()
+    setFormData({
+      name: '',
+      email: '',
+      address: '',
+      subject: '',
+      message: '',
+    });
+
+  };
+
 
 
   const [formData, setFormData] = useState({
@@ -19,23 +43,24 @@ function SignUp() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Perform form submission or data handling logic here
-    console.log(formData);
-    // Reset the form fields
-    setFormData({
-      name: '',
-      email: '',
-      address: '',
-      subject: '',
-      message: '',
-    });
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   alert("Your Information successfully submitted")
+  //   // Perform form submission or data handling logic here
+  //   console.log(formData);
+  //   // Reset the form fields
+  //   setFormData({
+  //     name: '',
+  //     email: '',
+  //     address: '',
+  //     subject: '',
+  //     message: '',
+  //   });
+  // };
 
 
   return (
-    <form onSubmit={handleSubmit} className="contact-form">
+    <form ref={form} onSubmit={sendEmail} className="contact-form">
       <div className="form-group">
         <h2 className="form-title">Contact us</h2>
         <label htmlFor="name">Name:</label>
@@ -91,7 +116,9 @@ function SignUp() {
           required
         ></textarea>
       </div>
-      <button type="submit" className="submit-btn">Submit</button>
+      <button type="submit" className="submit-btn">
+
+        Submit</button>
       <p className="contact-info">Contact us today and learn more about all of our health care services and options.</p>
 
     </form>
