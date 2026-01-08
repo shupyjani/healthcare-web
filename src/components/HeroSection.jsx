@@ -23,12 +23,12 @@ function HeroSection() {
             <h1 data-aos="fade-right" data-aos-duration="2000">
                 <span className='heading-span1'>AJANI </span>
                 <span className='heading-span2'>HEALTH</span>
-                <span className='heading-span3'>CARE</span>  - Quality Care You Can Trust</h1>
+                <span className='heading-span3'>CARE</span>  - Reliable Nursing & Healthcare Staffing</h1>
 
-            <p data-aos="fade-left" data-aos-duration="2000">For your Nursing staff needs</p>
+            <p data-aos="fade-left" data-aos-duration="2000">Supporting hospitals, care homes & community services</p>
             <div className="hero-btns" data-aos="fade-up" data-aos-duration="2000">
                 <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
-                    Get In Touch
+                    Enquire About Staffing
 
                 </Button>
 
