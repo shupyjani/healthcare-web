@@ -22,21 +22,24 @@ function Cards() {
                     <ul className="cards__items">
                         <CardItem
                             src='images/hc-img-1.jpg'
-                            text="Up-to-date healthcare support system"
+                            title="Up-to-date healthcare support system"
+                            text="Reliable staffing solutions supporting hospitals, care homes, and community services."
                             label='Health'
                             path='/sign-up'
                         />
 
                         <CardItem
                             src='images/hc-img-2.png'
-                            text="Provide Patient satisfactory health support"
+                            title="Patient-centred care"
+                            text="Delivering compassionate, safe, and responsive care through skilled healthcare professionals."
                             label='Health'
                             path='/sign-up'
                         />
 
                         <CardItem
                             src='images/hc-img-3.jpg'
-                            text="Effective patient centred care"
+                            title="High-quality care delivery"
+                            text="Delivering safe, responsive, and compassionate care through skilled healthcare professionals who meet high clinical and professional standards."
                             label='Health'
                             path='/sign-up'
                         />
@@ -44,7 +47,8 @@ function Cards() {
                     <ul className="cards__items">
                         <CardItem
                             src='images/hc-img-4.png'
-                            text="Highly skilled nursing staff"
+                            title="Highly skilled nursing staff"
+                            text="Supplying fully vetted, trained, and experienced nurses and healthcare professionals to meet a wide range of clinical and care requirements."
                             label='Health'
                             path='/sign-up'
                         />
@@ -52,7 +56,8 @@ function Cards() {
                         <CardItem
 
                             src='images/hc-img-6.jpg'
-                            text="Promote shared decision making"
+                            title="Shared decision-making"
+                            text="Working collaboratively with patients, families, and care providers to ensure informed decisions and the best possible care outcomes."
                             label='Health'
                             path='/sign-up'
                         />
@@ -60,7 +65,8 @@ function Cards() {
                         <CardItem
 
                             src='images/hc-img-17.jpg'
-                            text="Promote patient education and autonomy"
+                            title="Patient education & independence"
+                            text="Supporting patients through education and guidance that promotes confidence, autonomy, and long-term wellbeing."
                             label='Health'
                             path='/sign-up'
                         />
