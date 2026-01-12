@@ -93,6 +93,13 @@
   margin-bottom: 2rem;
 }
 
+.contact-compliance {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #6c757d;
+  text-align: center;
+}
+
 .footer-input::placeholder {
   color: #b1b1b1;
 }
