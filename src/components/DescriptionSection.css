@@ -4,7 +4,7 @@
     color: white;
 
 }
-
+ 
 .description-section {
 
     color: white;
@@ -30,6 +30,23 @@
 }
 
 
+/* Trust section styling */
+.trust-section {
+  margin-top: 40px;
+  padding: 30px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.trust-text {
+  color: white;
+  opacity: 0.9;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  text-align: center;
+}
 
 .description-title {
     padding-bottom: 50px;
@@ -132,20 +149,4 @@
         font-size: 14px;
     }
 
-/* Trust section styling */
-.trust-section {
-  margin-top: 40px;
-  padding: 30px;
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-  border-top: 1px solid rgba(255, 255, 255, 0.25);
-}
-
-.trust-text {
-  color: white;
-  opacity: 0.9;
-  font-size: 1.05rem;
-  line-height: 1.7;
-  text-align: center;
 }
