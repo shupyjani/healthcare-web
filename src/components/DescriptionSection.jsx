@@ -35,6 +35,11 @@ function DescriptionSection() {
                     </p>
 
                 </div>
+                <div className="trust-section">
+                    <p className="trust-text">
+                        We operate with robust governance, strict compliance standards, and a rigorous recruitment process to ensure every nurse and healthcare professional we supply is fully vetted, trained, and reliable. Our clients trust us to deliver safe, consistent staffing solutions that meet regulatory requirements and support high-quality patient outcomes.
+                   </p>
+            </div>
             </div>
 
             <div className='img-container'>
