@@ -4,26 +4,23 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
-        <div className='footer-container'>
+                 <div className="footer-links">
+            <div className="footer-link-wrapper">
+             <div className="footer-link-items">
+               <h2>About us</h2>
+               <p>Get in touch</p>
+            </div>
 
-            <div class='footer-links'>
-                <div className='footer-link-wrapper'>
-                    <div class='footer-link-items'>
-                        <h2>About us</h2>
-                        <Link to='/sign-up'>Get in touch</Link>
-                    </div>
+           <div className="footer-link-items">
+             <h2>Contact us</h2>
+             <p>contact@ajanihealthcare.com</p>
+             </div>
+           </div>
+        </div>
 
-                    <div class='footer-link-items'>
-                        <h2>Contact us</h2>
-                        <Link to='/'>contact@ajanihealthcare.com</Link>
-                    </div>
-                     </div>
-                   
-                   </div
-                    {/* TRUST LINE — FULL WIDTH */}
-                    <p className="footer-trust">
-            All staff are recruited, vetted, and managed in line with UK healthcare compliance standards.
-                   </p>
+            <p className="footer-trust">
+               All staff are recruited, vetted, and managed in line with UK healthcare compliance standards.
+            </p>
                     </div>
 
             </div>
