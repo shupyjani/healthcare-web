@@ -44,6 +44,9 @@ function DescriptionSection() {
 
             <div className='img-container'>
                 <h1 className='services-title' id='section2'>Our Services</h1>
+                <p className="services-intro">
+                        We support a wide range of healthcare providers across the UK, including hospitals, care homes, and community-based services.
+                   </p>
                 <div class="image-gallery">
                     <div class="image-container">
                         <img src="images/hc-img-18.jpg" alt="" />
