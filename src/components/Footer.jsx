@@ -1,92 +1,102 @@
-import React from 'react'
+import React from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
 
 function Footer() {
-    return (
-                 <div className="footer-links">
-            <div className="footer-link-wrapper">
-             <div className="footer-link-items">
-               <h2>About us</h2>
-               <p>Get in touch</p>
-            </div>
+  return (
+    <div className="footer-container">
 
-           <div className="footer-link-items">
-             <h2>Contact us</h2>
-             <p>contact@ajanihealthcare.com</p>
-             </div>
-           </div>
+      {/* Links */}
+      <div className="footer-links">
+        <div className="footer-link-wrapper">
+
+          <div className="footer-link-items">
+            <h2>About us</h2>
+            <p>Get in touch</p>
+          </div>
+
+          <div className="footer-link-items">
+            <h2>Contact us</h2>
+            <p>contact@ajanihealthcare.com</p>
+          </div>
+
         </div>
+      </div>
 
-            <p className="footer-trust">
-               All staff are recruited, vetted, and managed in line with UK healthcare compliance standards.
-            </p>
-                    </div>
+      {/* Trust line — FULL WIDTH & CENTERED */}
+      <p className="footer-trust">
+        All staff are recruited, vetted, and managed in line with UK healthcare compliance standards.
+      </p>
 
-            </div>
-            <section class='social-media'>
-                <div class='social-media-wrap'>
-                    <div class='footer-logo'>
-                        <Link to='/' className='social-logo'>
-                            <img src='./images/ahc-logo.png' alt='my logo' width='160px' height='80px' />
+      {/* Social section */}
+      <section className="social-media">
+        <div className="social-media-wrap">
 
-                        </Link>
-                    </div>
-                    <small class='website-rights'>AHC <span>&copy;</span> 2023</small>
+          <div className="footer-logo">
+            <Link to="/" className="social-logo">
+              <img
+                src="./images/ahc-logo.png"
+                alt="Ajani Healthcare logo"
+                width="160"
+                height="80"
+              />
+            </Link>
+          </div>
 
-                    <div class='social-icons'>
-                        <a
-                            class='social-icon-link facebook'
-                            href='https://www.facebook.com/ajanihealthcare/'
-                            target='_blank'
-                            rel="noopener noreferrer"
-                            
-                        >
-                            <i class='fab fa-facebook-f' />
-                        </a>
-                        <a
-                            class='social-icon-link instagram'
-                            href='https://instagram.com/ajanihealthcare?igshid=OGQ5ZDc2ODk2ZA=='
-                            target='_blank'
-                            rel="noopener noreferrer"
-                        >
-                            <i class='fab fa-instagram' />
-                        </a>
-                        <a
-                            class='social-icon-link tiktok'
-                            href='https://www.tiktok.com/@ajanihealthcare?_t=8cvOZQGBp8t&_r=1'
-                            target='_blank'
-                            rel="noopener noreferrer"
-                        >
-                            <i class='fab fa-tiktok' />
-                        </a>
-                        <a
-                            class='social-icon-link twitter'
-                            href='https://twitter.com/ajanihealthcare?s=21&t=Z3qycfeNybnzMJwMZWm1aQ'
-                            target='_blank'
-                            rel="noopener noreferrer"
-                        >
-                            <i class='fab fa-twitter' />
-                        </a>
-                        <a
-                            class='social-icon-link linkedin'
-                            href='https://www.linkedin.com/in/ajani-healthcare-0838b8279'
-                            target='_blank'
-                            rel="noopener noreferrer"
-                        >
-                            <i class='fab fa-linkedin' />
-                        </a>
-                    </div>
+          <small className="website-rights">AHC © 2023</small>
 
+          <div className="social-icons">
+            <a
+              className="social-icon-link facebook"
+              href="https://www.facebook.com/ajanihealthcare/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-facebook-f" />
+            </a>
 
+            <a
+              className="social-icon-link instagram"
+              href="https://instagram.com/ajanihealthcare"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-instagram" />
+            </a>
 
+            <a
+              className="social-icon-link tiktok"
+              href="https://www.tiktok.com/@ajanihealthcare"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-tiktok" />
+            </a>
 
+            <a
+              className="social-icon-link twitter"
+              href="https://twitter.com/ajanihealthcare"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-twitter" />
+            </a>
 
+            <a
+              className="social-icon-link linkedin"
+              href="https://www.linkedin.com/in/ajani-healthcare-0838b8279"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-linkedin" />
+            </a>
+          </div>
 
-                </div>
-            </section>
         </div>
-    )
+      </section>
+
+    </div>
+  );
 }
 
 export default Footer;
