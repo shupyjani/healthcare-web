@@ -16,7 +16,9 @@ function Footer() {
                     <div class='footer-link-items'>
                         <h2>Contact us</h2>
                         <Link to='/'>contact@ajanihealthcare.com</Link>
-
+                 <p className="contact-compliance">
+                    All staff are recruited, vetted, and managed in line with UK healthcare compliance standards.
+                 </p>
 
                     </div>
                 </div>
