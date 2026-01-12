@@ -44,21 +44,21 @@ function DescriptionSection() {
                         <img src="images/hc-img-18.jpg" alt="" />
                         <div class="image-text">
                             <h3>Hospitals</h3>
-                            <p>Provide high-quality care to patients, managing physical needs, preventing illness, and treating health conditions.</p>
+                            <p>We supply experienced and reliable nurses and healthcare support workers to hospitals, helping maintain safe staffing levels and high standards of patient care across a range of clinical settings.</p>
                         </div>
                     </div>
                     <div class="image-container">
                         <img src="images/hc-img-16.jpg" alt="" />
                         <div class="image-text">
                             <h3>Community Nursing</h3>
-                            <p>Visiting patient's in their own homes or in residential care homes and to provide a range of medical care to support periods of illness and incapacity.</p>
+                            <p>Our community nursing staff support patients in their own homes and residential settings, delivering compassionate, person-centred care while promoting independence and wellbeing.</p>
                         </div>
                     </div>
                     <div class="image-container">
                         <img src="images/hc-img-19.jpg" alt="" />
                         <div class="image-text">
                             <h3>Care homes</h3>
-                            <p> Mainataining a person and relationship-centred approach to care as well as fulfilling leadership/management responsibilities to staff at all levels within the organisation.</p>
+                            <p> We provide skilled nursing and care staff to residential and nursing homes, supporting day-to-day care delivery, leadership needs, and continuity of care for residents.</p>
                         </div>
                     </div>
                 </div>
