@@ -60,23 +60,24 @@ function SignUp() {
 
 
   return (
-     <>
-      <p className="contact-reassurance">
-        All enquiries are handled confidentially by our management team. We aim to respond within one working day.
-      </p>
-    <form ref={form} onSubmit={sendEmail} className="contact-form">
-      <div className="form-group">
-        <h2 className="form-title">Contact us</h2>
-        <label htmlFor="name">Name:</label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          value={formData.name}
-          onChange={handleChange}
-          required
-        />
-      </div>
+   <form ref={form} onSubmit={sendEmail} className="contact-form">
+  <div className="form-group">
+    <h2 className="form-title">Contact us</h2>
+
+    <p className="contact-reassurance">
+      All enquiries are handled confidentially by our management team. We aim to respond within one working day.
+    </p>
+
+    <label htmlFor="name">Name:</label>
+    <input
+      type="text"
+      id="name"
+      name="name"
+      value={formData.name}
+      onChange={handleChange}
+      required
+    />
+  </div>
       <div className="form-group">
         <label htmlFor="email">Email:</label>
         <input
