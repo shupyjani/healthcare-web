@@ -17,8 +17,9 @@ function Footer() {
                         <h2>Contact us</h2>
                         <Link to='/'>contact@ajanihealthcare.com</Link>
                     </div>
-                    
-                   </div>
+                     </div>
+                   
+                   </div
                     {/* TRUST LINE — FULL WIDTH */}
                     <p className="footer-trust">
             All staff are recruited, vetted, and managed in line with UK healthcare compliance standards.
