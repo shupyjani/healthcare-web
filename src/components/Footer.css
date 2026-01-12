@@ -85,7 +85,7 @@
 }
 
 .footer-link-items a:hover {
-  color: #e9e9e9;
+  color: rgba(255, 255, 255, 0.85);
   transition: 0.3s ease-out;
 }
 
@@ -95,7 +95,7 @@
 
 .footer-trust {
   font-size: 13px;
-  color: #ffffff; /* readable on grey */
+  color: rgba(255, 255, 255, 0.75); /* readable on grey */
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
