@@ -93,11 +93,23 @@
   margin-bottom: 2rem;
 }
 
-.contact-compliance {
-  margin-top: 10px;
-  font-size: 14px;
-  color: #6c757d;
+.footer-trust {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.85); /* readable on grey */
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-trust {
   text-align: center;
+  margin-top: 24px;
 }
 
 .footer-input::placeholder {
