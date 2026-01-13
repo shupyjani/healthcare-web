@@ -75,7 +75,7 @@ function Footer() {
 
             <a
               className="social-icon-link twitter"
-              href="https://twitter.com/ajanihealthcare"
+              href="https://twitter.com/ajanihc"
               target="_blank"
               rel="noopener noreferrer"
             >
