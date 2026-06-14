@@ -8,18 +8,13 @@ import emailjs from '@emailjs/browser';
 function SignUp() {
 
   const form = useRef();
-  const sendEmail = (e) => {
-    e.preventDefault();
+const sendEmail = (e) => {
+  e.preventDefault();
 
-  if (e.target.website && e.target.website.value) {
-    return;
-  }
-
- emailjs.sendForm('service_o99hzun', 'template_c32bqwm', form.current, {
-  publicKey: 'csIr3QJ1ouLKn0w08',
-})
+  emailjs.sendForm('service_o99hzun', 'template_c32bqwm', form.current, 'csIr3QJ1ouLKn0w08')
     .then((result) => {
       alert("Your request has been sent. We will respond as soon as possible.");
+      console.log(result.text);
 
       setFormData({
         name: '',
@@ -66,17 +61,6 @@ function SignUp() {
 
  return (
  <form ref={form} onSubmit={sendEmail} className="contact-form">
-  <div style={{ display: 'none' }} aria-hidden="true">
-    <label htmlFor="website">Website</label>
-    <input
-      type="text"
-      id="website"
-      name="website"
-      tabIndex={-1}
-      autoComplete="off"
-    />
-  </div>
-
   <div className="form-group">
     <h2 className="form-title">Contact us</h2>
 
