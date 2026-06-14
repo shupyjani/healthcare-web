@@ -15,7 +15,9 @@ function SignUp() {
     return;
   }
 
-  emailjs.sendForm('service_o99hzun', 'template_c32bqwm', form.current, 'csIr3QJ1ouLKn0w08')
+ emailjs.sendForm('service_o99hzun', 'template_c32bqwm', form.current, {
+  publicKey: 'csIr3QJ1ouLKn0w08',
+})
     .then((result) => {
       alert("Your request has been sent. We will respond as soon as possible.");
 
