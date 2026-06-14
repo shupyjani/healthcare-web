@@ -11,23 +11,26 @@ function SignUp() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_o99hzun', 'template_c32bqwm', form.current, 'csIr3QJ1ouLKn0w08')
-      .then((result) => {
-        alert("Your request has been sent")
-        console.log(result.text);
-      }, (error) => {
-        console.log(error.text);
-      });
-    // e.target.reset()
-    setFormData({
-      name: '',
-      email: '',
-      address: '',
-      subject: '',
-      message: '',
-    });
+  if (e.target.website && e.target.website.value) {
+    return;
+  }
 
-  };
+  emailjs.sendForm('service_o99hzun', 'template_c32bqwm', form.current, 'csIr3QJ1ouLKn0w08')
+    .then((result) => {
+      alert("Your request has been sent. We will respond as soon as possible.");
+
+      setFormData({
+        name: '',
+        email: '',
+        address: '',
+        subject: '',
+        message: '',
+      });
+    }, (error) => {
+      alert("Sorry, your message could not be sent. Please try again or email us directly.");
+      console.log(error.text);
+    });
+};
 
 
 
@@ -59,13 +62,24 @@ function SignUp() {
   // };
 
 
-  return (
-   <form ref={form} onSubmit={sendEmail} className="contact-form">
+ return (
+ <form ref={form} onSubmit={sendEmail} className="contact-form">
+  <div style={{ display: 'none' }} aria-hidden="true">
+    <label htmlFor="website">Website</label>
+    <input
+      type="text"
+      id="website"
+      name="website"
+      tabIndex={-1}
+      autoComplete="off"
+    />
+  </div>
+
   <div className="form-group">
     <h2 className="form-title">Contact us</h2>
 
     <p className="contact-reassurance">
-      All enquiries are handled confidentially by our management team. We aim to respond within one working day.
+      All enquiries are handled confidentially by our management team. We will respond as soon as possible.
     </p>
 
     <label htmlFor="name">Name:</label>
@@ -89,17 +103,18 @@ function SignUp() {
           required
         />
       </div>
-      <div className="form-group">
-        <label htmlFor="address">Address:</label>
-        <input
-          type="text"
-          id="address"
-          name="address"
-          value={formData.address}
-          onChange={handleChange}
-          required
-        />
-      </div>
+    <div className="form-group">
+  <label htmlFor="address">Location / postcode area optional:</label>
+  <input
+    type="text"
+    id="address"
+    name="address"
+    value={formData.address}
+    onChange={handleChange}
+    placeholder="Optional - town/city or first part of postcode"
+    maxLength={80}
+  />
+</div>
       <div className="form-group">
         <label htmlFor="subject">Subject:</label>
         <input
