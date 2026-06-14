@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Ajani Healthcare — Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A live React website for Ajani Healthcare Limited, a healthcare staffing and support service.
 
-## Available Scripts
+Live site: https://www.ajanihealthcare.com
 
-In the project directory, you can run:
+## About
 
-### `npm start`
+This is a responsive React-based business website presenting Ajani Healthcare’s services, values, goals and contact route for enquiries. The site is deployed through Netlify and managed through GitHub.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## My involvement
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This project was collaboratively built from an existing React codebase and has since been independently maintained, edited and improved by me.
 
-### `npm test`
+My work has included:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Editing React components and JSX structure, including HeroSection, Cards, CardItem, SignUp and Footer-related sections
+* Updating website copy to make the messaging clearer, more professional and more healthcare-focused
+* Improving UI/UX structure, content hierarchy, navigation flow and trust-building sections
+* Adding clearer title and description structures within card components
+* Refining contact-form reassurance text to reduce user hesitation
+* Improving footer credibility messaging and compliance-focused wording
+* Updating CSS styling, spacing, typography and colour contrast for better readability
+* Managing GitHub commits and Netlify deployments
+* Supporting site maintenance, build/deployment updates and ongoing refinements
 
-### `npm run build`
+## Tech stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+React · JavaScript / JSX · CSS · GitHub · Netlify
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Key learning
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project has strengthened my practical ability to work with an existing React codebase, locate and edit components, refine UI/UX, make CSS changes, deploy updates, and maintain a live business website.
